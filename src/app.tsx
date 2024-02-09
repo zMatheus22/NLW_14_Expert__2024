@@ -36,8 +36,6 @@ export function App() {
   }
 
   function handleSearch(event: ChangeEvent<HTMLInputElement>) {
-    // event.preventDefault();
-
     const query = event.target.value;
     setSearch(query);
   }
